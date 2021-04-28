@@ -1,5 +1,5 @@
 package inheritance2;
-
+/// HATALI BIR YAP
 public class LogManager {
 	public void log(int logType) {
 		if (logType == 1) {
