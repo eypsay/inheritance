@@ -1,8 +1,8 @@
 package inheritance;
 
-public class IndvidualCustomer {
-	int id;
-	String customerNumer;
+public class IndvidualCustomer extends Customer {
+
 	String firstName;
 	String lastName;
+	String nationalIdentity;
 }

@@ -4,12 +4,18 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Customer customer = new Customer();
-		customer.id = 1;
-		customer.firstName = "Eyyüp";
-		customer.lastName = "Sayýlýr";
-		customer.nationalIdentity = "123";
-		customer.companyName = "";
+//		Customer customer = new Customer();
+//		customer.id = 1;
+//		customer.firstName = "Eyyüp";
+//		customer.lastName = "Sayýlýr";
+//		customer.nationalIdentity = "123";
+//		customer.companyName = "";
+		IndvidualCustomer eyyup = new IndvidualCustomer();
+		
+		
+		
+		CorporateCustomer sayilir = new CorporateCustomer();
+		
 	}
 
 }

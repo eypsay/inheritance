@@ -1,10 +1,8 @@
 package inheritance;
 
 //ir class ne yapabiliryorsa sadece onalrý yapmalýdýr
-public class CorporateCustomer {
-	int id;
+public class CorporateCustomer extends Customer {
 
-	String nationalIdentity;
 	String companyName;
 	String taxNumber;
 }
